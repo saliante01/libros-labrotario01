@@ -77,9 +77,9 @@ public class libros {
             String matriz[][] = new String[100][3];  //tamaño 100, 3 tipos de datos
 
             for (int x=0; x < matriz.length; x++) {
-                System.out.print("|");
-                for (int y=0; y < matriz[x].length; y++) {
-                    System.out.print (matriz[x][y]);
+                
+                    for (int y=0; y < matriz[x].length; y++) {
+                   
                     if (y!=matriz[x].length-1) System.out.print("\t");
                 }
 
